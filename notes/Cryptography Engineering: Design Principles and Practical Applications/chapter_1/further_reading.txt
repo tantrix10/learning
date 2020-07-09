@@ -1,0 +1,8 @@
+this book is the sequel to: Applied cryptography, which covers a broader range of subjects and
+includes specs of all algos. However does not go into engineering details.
+
+Facts and precise results: Handbook of applied crypto, basically an encyclopedia
+
+for theory: foundations of crypto, introduction to modern crypto, course notes from Ballare and Rogaway
+
+newsletter:  http://www.schneier.com/crypto-gram.html and the blog on the same website. 
