@@ -4,7 +4,7 @@ fn test(my_vec: &mut Vec<u32>)-> &mut Vec<u32>{
     print!("{} {} ", my_vec.len(), my_vec.len()/2);
     // I'm going to leave this here as a testament to my panicing
     // when confronted by compiler messages late at night, haha.
-    //my_vec.remove(((my_vec.len() as u32 -1)/2) as u32 as usize);
+    // my_vec.remove(((my_vec.len() as u32 -1)/2) as u32 as usize);
     my_vec.remove((my_vec.len()/2 )-1);
     let mut total = 0;
     for ele in my_vec.iter(){
