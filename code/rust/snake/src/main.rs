@@ -76,12 +76,12 @@ impl Game {
 }
 fn main() {
     println!("Hello, world!");
-    let opengl = OpenGL::V3_2;
+    let opengli = OpenGL::V3_2;
     let mut game = Game::new(1, 1.0);
     game.spawn_dots(20);
     let mut window: PistonWindow = WindowSettings::new(
         "DOTS", [700, 700])
-        .opengl(opengl)
+        .opengl(opengli)
         .exit_on_esc(true)
         .build().unwrap();
     while let Some(e) = window.next(){
